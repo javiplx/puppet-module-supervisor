@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'supervisor::service' do
+describe 'supervisor::service', :type => :define do
   let(:title) { 'sometitle' }
   let(:params) { {
     :command     => 'somecommand',

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'supervisor::params' do
+describe 'supervisor::params', :type => :class do
   context "on redhat" do
     let(:facts) { {
       :osfamily => 'redhat',

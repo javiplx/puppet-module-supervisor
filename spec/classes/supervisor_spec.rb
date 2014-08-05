@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'supervisor' do
+describe 'supervisor', :type => :class do
  context "debian family" do
   let (:facts) { {
     :osfamily => 'debian',
