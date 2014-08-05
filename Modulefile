@@ -1,5 +1,5 @@
 name    'puppet-module-supervisor'
-version '0.0.1'
+version '1.0.0'
 source 'https://github.com/jimdo/puppet-module-supervisor'
 author 'Paul Lathrop <paul@tertiusfamily.net>'
 license '2 clause BSD, see LICENSE'
