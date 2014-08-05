@@ -10,3 +10,5 @@ Gemfile.lock
 *.iml
 .ruby-version
 atlassian-ide-plugin.xml
+
+TEST-puppet.xml
