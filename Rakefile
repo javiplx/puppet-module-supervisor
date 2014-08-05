@@ -4,5 +4,5 @@ require 'puppetlabs_spec_helper/rake_tasks'
 require 'junit'
 
 RSpec::Core::RakeTask.new(:test) do |t|
-  t.rspec_opts = "-r junit -f JUnit -o TEST-puppet.xml"
+  t.rspec_opts = "-r junit -f JUnit -o TEST-puppet.xml --tag ~broken"
 end

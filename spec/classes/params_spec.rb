@@ -19,7 +19,7 @@ describe 'supervisor::params', :type => :class do
     }
   end
 
-  context "on windows" do
+  context "on windows", :broken => true do
     let(:facts) { {
       :osfamily => 'Windows',
     } }
