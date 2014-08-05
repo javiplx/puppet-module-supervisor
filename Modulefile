@@ -1,4 +1,4 @@
-name    'puppet-module-supervisor'
+name    'jimdo-supervisor'
 version '1.0.0'
 source 'https://github.com/jimdo/puppet-module-supervisor'
 author 'Paul Lathrop <paul@tertiusfamily.net>'
