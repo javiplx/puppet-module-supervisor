@@ -12,3 +12,4 @@ Gemfile.lock
 atlassian-ide-plugin.xml
 
 TEST-puppet.xml
+coverage.xml
